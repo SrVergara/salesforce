@@ -1,8 +1,8 @@
-	#nav-link li{
-		display: inline;
-		list-style-type: none;
-		padding-right: 20px;
-	}
+#nav-link {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
 
 .navbar-brand {
 	width: 70px;
@@ -15,10 +15,39 @@
 
 .navbar-brand, .navbar-nav > li > a {
 	color: white;
-
+	width: 180px;
+	text-align: center;
+	font-size: 18px;
 }
 
-.navbar-brand, .navbar-nav > li > a:hover{
+.navbar .navbar-nav > li > a:hover{
 	background: #778899;
+	color: rgb(0,0,0);
 }
 
+#find-workshop-link {
+	color:rgb(255, 255, 96);
+}
+
+.main-logo {
+	background: url(../images/headline-icons.png) no-repeat 0 0;
+	width: 90px;
+	height: 72px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -38px;
+	text-indent: -998em;
+}
+
+#nav-link > li{
+	float: left;
+}
+
+#nav-link > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	width: 180px;
+	text-align: center;
+}

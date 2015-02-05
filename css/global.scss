@@ -1,0 +1,638 @@
+/* Global Styles */
+
+@font-face{
+    font-family:'ProximaNovaRegular';
+    src:url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-reg-webfont.eot');
+    src:url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-reg-webfont.woff') format('woff'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-reg-webfont.ttf') format('truetype'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-reg-webfont.svg#ProximaNovaRegular') format('svg');
+}
+@font-face{
+    font-family:'ProximaNovaLight';
+    src:url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-light-webfont.eot');
+    src:url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-light-webfont.woff') format('woff'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-light-webfont.ttf') format('truetype'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+}
+@font-face{
+    font-family:'ProximaNovaSemiBold';
+    src:url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-sbold-webfont.eot');
+    src:url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-sbold-webfont.woff') format('woff'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-sbold-webfont.ttf') format('truetype'),
+        url('//www.sfdcstatic.com/system/shared/common/assets/fonts/ProximaNova/proximanova-sbold-webfont.svg#ProximaNovaSemiBold') format('svg');
+}
+
+$proximaRegular: 'ProximaNovaRegular', Arial, sans-serif;
+$proximaLight: 'ProximaNovaLight', Arial, sans-serif;
+$proximaBold: 'ProximaNovaSemiBold', Arial, sans-serif;
+
+body {
+    font-family: $proximaRegular;
+    font-size: 25px;
+    line-height: 42px;
+    background: #fff;
+    @media (max-width: 767px) {
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+h1, h1 a {
+    color: #009ddc;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: $proximaBold;
+}
+
+h2, h2 a {
+    color: #009ddc;
+    font-family: $proximaBold;
+    font-size: 53px;
+    line-height: 58px;
+    margin: 0;
+    @media (max-width: 767px) {
+        font-size: 48px;
+        line-height: 53px;
+    }
+}
+
+h3, h3 a {
+    color: #444;
+    font-size: 37px;
+    line-height: 42px;
+    margin: 0;
+    padding: 20px 0 0;
+    @media (max-width: 767px) {
+        font-size: 34px;
+        line-height: 39px;
+    }
+}
+
+p {
+    margin-bottom: 42px;
+}
+
+a {
+    color: #009ddc;
+    &:hover {
+        color: #01344e;
+        text-decoration: none;
+    }
+}
+
+.blue-text {
+    color: #009ddc;
+}
+
+b {
+    font-family: $proximaBold;
+}
+
+.site-header {
+    text-align: center;
+    .header-content {
+        position: relative;
+        margin: 0 auto;
+    }
+    .large-header {
+        @media (max-width: 480px) {
+            display: none;
+        }
+    }
+    .small-header {
+        display: none;
+        @media (max-width: 480px) {
+            display: block;
+        }
+    }
+    .header-logo {
+        position: absolute;
+        top: 15px;
+        left: 19%;
+        @media (min-width: 1200px) {
+            top: 30px;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            top: 10px;
+        }
+        @media (max-width: 767px) {
+            width: 50px;
+            top: 5px;
+        }
+        @media (max-width: 480px) {
+            left: 7%;
+        }
+    }
+    .campus-tour-hashtag {
+        position: absolute;
+        top: 5px;
+        right: 10%;
+        @media (min-width: 1200px) {
+            top: 15px;
+            right: 15%;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            top: 0px;
+            right: 8%;
+        }
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+}
+
+.top-content {
+    margin-top: 14px;
+    p {
+        text-align: center;
+    }
+}
+
+.how-to-participate {
+    margin-top: 27px;
+    h2 {
+        margin-bottom: 46px;
+    }
+    .participation-content {
+        margin-bottom: 62px;
+    }
+    .participate-inner {
+        background: #eef8ff;
+        padding-bottom: 1px;
+        @media (max-width: 767px) {
+            margin-left: -10px;
+            margin-right: -10px;
+            > .row {
+                margin: 0;
+            }
+        }
+    }
+    .participation-title {
+        position: relative;
+        h3 {
+            padding: 26px 175px 26px;
+            display: table;
+            height: 136px;
+            width: 100%;
+            @media (min-width: 1200px) {
+                padding: 26px 260px 26px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                padding: 26px 80px 26px;
+            }
+            @media (max-width: 767px) {
+                padding: 26px 0 26px;
+            }
+            span {
+                vertical-align: middle;
+                display: table-cell;
+            }
+        }
+    }
+    .title-icon {
+        background: url(../images/headline-icons.png) no-repeat 0 0;
+        width: 90px;
+        height: 72px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        margin-top: -38px;
+        text-indent: -998em;
+        @media (max-width: 767px) {
+            display: none;
+        }
+        &.title-icon-yellow {
+            background-position: -118px 0;
+        }
+        &.title-icon-blue {
+            background-position: -236px 0;
+        }
+        &.title-icon-orange {
+            background-position: -354px 0;
+            top: 0;
+            margin-top: 0;
+        }
+        &.title-icon-green {
+            background-position: -472px 0;
+            top: 0;
+            margin-top: 0;
+        }
+        &.title-icon-pink {
+            background-position: -590px 0;
+            bottom: 0;
+            margin-top: 0;
+            top: auto;
+        }
+        &.left {
+            left: 65px;
+            @media (min-width: 1200px) {
+                left: 155px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                left: -10px;
+            }
+        }
+        &.right {
+            right: 65px;
+            @media (min-width: 1200px) {
+                right: 155px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                right: -10px;
+            }
+        }
+    }
+    .participate1 {
+        p {
+            margin-top: 0;
+        }
+        .blue-text {
+            margin-top: 19px;
+        }
+    }
+    .participate2 {
+        .title-icon-yellow {
+            &.left {
+                left: 67px;
+                @media (min-width: 1200px) {
+                    left: 161px;
+                }
+                @media (min-width: 768px) and (max-width: 991px) {
+                    left: -10px;
+                }
+            }
+            &.right {
+                right: 67px;
+                @media (min-width: 1200px) {
+                    right: 161px;
+                }
+                @media (min-width: 768px) and (max-width: 991px) {
+                    right: -10px;
+                }
+            }
+        }
+        .title-icon-blue {
+            &.left {
+                left: -36px;
+                @media (min-width: 1200px) {
+                    left: 57px;
+                }
+                @media (min-width: 768px) and (max-width: 991px) {
+                    display: none;
+                }
+            }
+            &.right {
+                right: -36px;
+                @media (min-width: 1200px) {
+                    right: 57px;
+                }
+                @media (min-width: 768px) and (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .participate3 {
+        margin-bottom: 29px;
+        .participate-inner {
+            position: relative;
+        }
+        .icon-container-left {
+            position: absolute;
+            top: 43px;
+            left: 10px;
+            width: 196px;
+            height: 158px;
+            @media (min-width: 1200px) {
+                left: 20px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                width: 90px;
+                height: 72px;
+                left: 39px;
+            }
+            @media (max-width: 767px) {
+                display: none;
+            }
+            .title-icon-orange {
+                left: 0;
+                @media (min-width: 768px) and (max-width: 991px) {
+                    display: none;
+                }
+            }
+            .title-icon-green {
+                right: 0;
+                @media (min-width: 768px) and (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+        .icon-container-right {
+            position: absolute;
+            top: 43px;
+            right: 10px;
+            width: 196px;
+            height: 158px;
+            @media (min-width: 1200px) {
+                right: 20px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                width: 90px;
+                height: 72px;
+                right: 39px;
+            }
+            @media (max-width: 767px) {
+                display: none;
+            }
+            .title-icon-orange {
+                right: 0;
+                @media (min-width: 768px) and (max-width: 991px) {
+                    display: none;
+                }
+            }
+            .title-icon-green {
+                left: 0;
+                @media (min-width: 768px) and (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+        .title-icon-pink {
+            left: 50%;
+            margin-left: -45px;
+            @media (min-width: 768px) and (max-width: 991px) {
+                left: 0;
+                margin-left: 0;
+                top: 0;
+                bottom: auto;
+            }
+        }
+        .participation-title {
+            h3 {
+                padding: 24px 25px 10px;
+                display: block;
+                height: auto;
+                width: auto;
+                @media (min-width: 1200px) {
+                    padding: 24px 0 26px;
+                }
+                @media (min-width: 768px) and (max-width: 991px) {
+                    padding: 24px 0 30px;
+                }
+            }
+        }
+        p {
+            padding: 0 210px;
+            @media (min-width: 768px) and (max-width: 991px) {
+                padding: 0 10px;
+            }
+            @media (max-width: 767px) {
+                padding: 0;
+            }
+        }
+    }
+    p {
+        text-align: center;
+        margin-top: 19px;
+        margin-bottom: 16px;
+    }
+    .campus-events {
+        background: #fff;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        @media (max-width: 767px) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .campus-date {
+            font-size: 24px;
+            color: #01344e;
+            letter-spacing: 1px;
+            // font-family: $proximaLight;
+            @media (max-width: 991px) {
+                font-size: 20px;
+            }
+        }
+        .campus-name {
+            font-family: $proximaBold;
+            font-size: 24px;
+            color: #01344e;
+            letter-spacing: 1px;
+            @media (max-width: 991px) {
+                font-size: 20px;
+            }
+        }
+        .campus-info {
+            font-family: $proximaBold;
+            font-size: 24px;
+            letter-spacing: 1px;
+            @media (max-width: 991px) {
+                font-size: 20px;
+            }
+        }
+    }
+    .campus-event {
+        border-top: 1px solid #bebfc1;
+        position: relative;
+        margin-top: 11px;
+        padding-top: 18px;
+        &:before {
+            border-top: 1px solid #d4d5d6;
+            content: '';
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 0;
+        }
+        &:first-child {
+            border-top: 0;
+            margin: 0;
+            padding: 0;
+            &:before {
+                border: none;
+                position: relative;
+            }
+        }
+    }
+    .coding-screenshot {
+        margin-top: 30px;
+        margin-bottom: 28px;
+    }
+}
+
+.ie8,
+.ie7,
+.ie6 {
+    .how-to-participate {
+        .participation-title h3 {
+            display: block;
+            height: auto;
+            width: auto;
+            span {
+                display: inline;
+            }
+        }
+        .coding-screenshot {
+            display: block;
+            margin: 0 auto;
+        }
+        .participate2 {
+            .title-icon-blue {
+                display: none;
+            }
+        }
+        .participate3 {
+            .participation-title {
+                h3 {
+                    padding: 24px 120px 10px;
+                }
+            }
+            .icon-container-left {
+                width: 90px;
+                height: 72px;
+                left: 39px;
+            }
+            .icon-container-right {
+                width: 90px;
+                height: 72px;
+                right: 39px;
+            }
+            .title-icon-orange {
+                display: none;
+            }
+            .title-icon-green {
+                display: none;
+            }
+        }
+    }
+    .site-footer {
+        .footer-details {
+            padding-left: 10px;
+        }
+        .footer-social {
+            margin-top: 20px;
+        }
+    }
+}
+
+.site-footer {
+    font-size: 13px;
+    line-height: 16px;
+    color: #808080;
+    .footer-top {
+        background: url(../images/footer-background-top.png) no-repeat 63% top;
+        height: 122px;
+    }
+    .footer-content {
+        background: url(../images/footer-background.png) no-repeat 63% top #e6e7e8;
+        padding-top: 139px;
+        padding-bottom: 25px;
+    }
+    .delim {
+        padding: 0 8px;
+    }
+    .footer-details {
+        padding-left: 34px;
+        padding-top: 7px;
+        @media (min-width: 768px) and (max-width: 991px) {
+            padding-top: 0;
+        }
+        @media (max-width: 767px) {
+            padding-left: 10px;
+        }
+    }
+    .footer-headline {
+        font-size: 18px;
+        line-height: 140%;
+        @media (min-width: 768px) and (max-width: 991px) {
+            font-size: 15px;
+        }
+        a {
+            color: #808080;
+        }
+    }
+    .footer-copyright {
+        margin: 10px 0 5px;
+        a:hover {
+            color: #f00;
+        }
+    }
+    .footer-links {
+        line-height: 125%;
+        margin-top: 11px;
+        a:hover {
+            color: #f00;
+        }
+    }
+    .footer-social {
+        padding: 0;
+        margin: 0;
+        @media (max-width: 767px) {
+            margin-top: 20px;
+        }
+        li {
+            list-style-type: none;
+            float: left;
+            margin-left: 3px;
+            margin-top: 1px;
+            &:first-child {
+                margin-left: 0;
+            }
+            a {
+                display: block;
+                width: 31px;
+                height: 30px;
+                background: url(../images/social-icons.png) no-repeat;
+                text-indent: -998em;
+            }
+            &.facebook {
+                a {
+                    background-position: -37px 0;
+                }
+            }
+            &.twitter {
+                a {
+                    background-position: 0 0;
+                }
+            }
+            &.linkedin {
+                a {
+                    background-position: -68px 0;
+                }
+            }
+            &.googleplus {
+                a {
+                    background-position: -101px 0;
+                }
+            }
+            &.youtube {
+                a {
+                    background-position: -134px 0;
+                }
+            }
+            &.rss {
+                a {
+                    background-position: -167px 0;
+                }
+            }
+        }
+    }
+}
