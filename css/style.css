@@ -1,0 +1,24 @@
+	#nav-link li{
+		display: inline;
+		list-style-type: none;
+		padding-right: 20px;
+	}
+
+.navbar-brand {
+	width: 70px;
+	padding: 0px;
+}
+
+.navbar {
+	background: #18253b !important;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+	color: white;
+
+}
+
+.navbar-brand, .navbar-nav > li > a:hover{
+	background: #778899;
+}
+
