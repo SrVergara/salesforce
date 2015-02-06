@@ -10,7 +10,7 @@
 }
 
 .navbar {
-	background: #18253b !important;
+	background: #18253b;
 }
 
 .navbar-brand, .navbar-nav > li > a {
@@ -41,7 +41,7 @@
 }
 
 #nav-link > li{
-	float: left;
+	float: right;
 }
 
 #nav-link > li > a {
@@ -51,3 +51,5 @@
 	width: 180px;
 	text-align: center;
 }
+
+
