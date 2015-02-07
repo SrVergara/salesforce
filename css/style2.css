@@ -1,3 +1,44 @@
 .navbar{
     background: #08354C;
 }
+
+.training-box{
+    height: 300px;
+    background-color: #009ddc;
+    margin-bottom: 20px;
+}
+
+#app-development{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+#app-development > img{
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#trailhead-courses{
+    background-color: #384353;
+    color: white;
+    position: relative;
+}
+
+#trailhead-courses > #trailhead-banner{
+    position: absolute;
+}
+
+#salesforce-bootcamp{
+    background-color: #C9F1FD;
+}
+
+#udacity{
+    background-color: #AEDD94;
+}
+
+#salesforce-technical-library{
+    background-color: #D6D6D6;
+}
