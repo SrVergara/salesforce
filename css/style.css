@@ -29,16 +29,6 @@
 	color:rgb(255, 255, 96);
 }
 
-.main-logo {
-	background: url(../images/headline-icons.png) no-repeat 0 0;
-	width: 90px;
-	height: 72px;
-	display: block;
-	position: absolute;
-	top: 50%;
-	margin-top: -38px;
-	text-indent: -998em;
-}
 
 #nav-link > li{
 	float: right;
@@ -52,4 +42,40 @@
 	text-align: center;
 }
 
+/*Space invaider logos */ 
+.title-icon {
+	background: url(../images/headline-icons.png) no-repeat 0 0;
+	width: 90px;
+	height: 72px;
+	display: block;
+	position: absolute;
+	/*top: 50%;*/
+	/*margin-top: -38px;*/
+	margin-top: 10px;
+	text-indent: -998em;
+}
 
+/*Homepage 3rd section*/
+.center-box {
+	font-size: 25px; 
+	margin: 25px 25px ;
+}
+
+#subtitle-heading {
+	text-align: center;
+	margin: 50px 25px 15px;
+	font-size: 40px;
+}
+
+#subtitle-explanation {
+	text-align: center;
+	margin: 0px 25px 100px;
+	font-size: 25px;
+}
+
+#section-explanation {
+	text-align: center;
+	margin: 100px 10px 50px;
+	font-size: 25px;
+
+}
