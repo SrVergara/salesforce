@@ -2,19 +2,23 @@
     background: #08354C;
 }
 
+.small-pad{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .training-box{
-    height: 300px;
-    background-color: #009ddc;
+    min-height: 300px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 #app-development{
     background-color: black;
-    padding: 20px;
     color: white;
 }
 
-#app-development > img{
+#app-development img{
     width: 33%;
     display: block;
     margin-left: auto;
@@ -25,20 +29,114 @@
     background-color: #384353;
     color: white;
     position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #trailhead-courses > #trailhead-banner{
     position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+#trailhead-courses > h1{
+    position: absolute;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 #salesforce-bootcamp{
     background-color: #C9F1FD;
+    padding: 20px;
+}
+
+#salesforce-bootcamp h1,h2,h3{
+    margin-bottom: 0px;
+}
+
+#salesforce-bootcamp h2{
+    margin-top: 0px;
+}
+
+#salesforce-bootcamp .form-group{
+    width: 100%;
+}
+
+#salesforce-bootcamp #invite-email{
+    width: 70%;
+}
+
+#invite-form{
+    margin-top: 20px;
+}
+
+#summer-camp{
+    padding: 0px;
+}
+
+#summer-camp img{
+    width: 100%;
+    max-height: 300px;
 }
 
 #udacity{
     background-color: #AEDD94;
 }
 
+#developer-edition{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+}
+
 #salesforce-technical-library{
     background-color: #D6D6D6;
+}
+
+#newsletter{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+}
+
+#newsletter #newsletter-form{
+    margin-top: 20px;
+}
+
+#newsletter .form-group{
+    width: 100%;
+}
+
+#newsletter #newsletter-email{
+    width: 70%;
+}
+
+#supercharge{
+    padding: 80px;
+}
+
+#sweetlist{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 20px;
+}
+
+.no-padding{
+    padding: 0px;
+}
+
+.footer-top{
+    background: url("../images/footer-background-top.png") no-repeat 63% top;
+    height: 122px;
+}
+
+.footer{
+    background: url("../images/footer-background.png") no-repeat 63% top #e6e7e8;
+    padding-top: 139px;
+    padding-bottom: 25px;
 }
