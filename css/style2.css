@@ -86,6 +86,13 @@
     background-color: #AEDD94;
 }
 
+#udacity img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+}
+
 #developer-edition{
     border-color: black;
     border-style: solid;
@@ -93,8 +100,21 @@
     background-color: white;
 }
 
+#developer-edition img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #salesforce-technical-library{
     background-color: #D6D6D6;
+}
+
+#salesforce-technical-library img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #newsletter{
@@ -144,5 +164,72 @@
 
 .footer-headline{
     font-size: 18px;
-    line-height: 140%;
+    line-height: 2em;
+}
+
+.footer-headline a{
+    color: #808080;
+}
+
+.footer-copyright, .footer-legal, .footer-links{
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.footer-links{
+    line-height: 2em;
+}
+
+.footer-social {
+    padding: 0;
+    margin: 0;
+}
+@media(max-width: 767px) {
+    .footer-social{
+        margin-top: 20px;
+    }
+}
+
+.footer-social li{
+    list-style-type: none;
+    float: left;
+    margin-left: 3px;
+    margin-top: 1px;
+}
+
+.footer-social li:first-child {
+     margin-left: 0;
+ }
+
+.footer-social a {
+    display: block;
+    width: 31px;
+    height: 30px;
+    background: url(../images/social-icons.png) no-repeat;
+    text-indent: -998em;
+}
+
+
+.footer-social li.facebook a{
+    background-position: -37px 0;
+}
+
+.footer-social li.twitter a{
+    background-position: 0 0;
+}
+
+.footer-social li.linkedin a{
+    background-position: -68px 0;
+}
+
+.footer-social li.googleplus a{
+    background-position: -101px 0;
+}
+
+.footer-social li.youtube a{
+    background-position: -134px 0;
+}
+
+.footer-social li.rss a{
+    background-position: -167px 0;
 }
