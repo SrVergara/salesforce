@@ -86,6 +86,13 @@
     background-color: #AEDD94;
 }
 
+#udacity img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+}
+
 #developer-edition{
     border-color: black;
     border-style: solid;
@@ -93,8 +100,21 @@
     background-color: white;
 }
 
+#developer-edition img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #salesforce-technical-library{
     background-color: #D6D6D6;
+}
+
+#salesforce-technical-library img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #newsletter{
