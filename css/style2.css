@@ -136,7 +136,13 @@
 }
 
 .footer{
+    color: #808080;
     background: url("../images/footer-background.png") no-repeat 63% top #e6e7e8;
     padding-top: 139px;
     padding-bottom: 25px;
+}
+
+.footer-headline{
+    font-size: 18px;
+    line-height: 140%;
 }
