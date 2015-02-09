@@ -43,6 +43,10 @@
 }
 
 /*Homepage 3rd section*/
+.container-benefits {
+	background-color: #e7e7e7;
+}
+
 .center-box {
 	font-size: 25px; 
 	margin: 25px 25px ;
@@ -64,13 +68,25 @@
 	font-size: 25px;
 }
 
-#section-explanation {
+.section-explanation {
 	text-align: center;
 	margin: 100px 10px 50px;
 	font-size: 25px;
-
 }
 
 .icon-bottom-margin {
 	margin-bottom: 30px;
+}
+
+.icons-displayed {
+	height:30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/*homepage 4th section */
+
+#note-text {
+	font-size: 15px;
 }
