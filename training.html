@@ -42,14 +42,27 @@
     <div class="row">
         <div class="col-md-6 small-pad">
             <div id="app-development" class="training-box">
-                <img src="images/app-development-telecast.png">
-                <h1 class="text-center">App Development Telecast</h1>
+                <div class="original-overlay">
+                    <img src="images/app-development-telecast.png">
+                    <h1 class="text-center">App Development Telecast</h1>
+                </div>
+                <div class="overlay">
+                    <h2>Learn how to build a mobile app with our rockstar VP of Development, Adam Seligman</h2>
+                </div>
             </div>
         </div>
         <div class="col-md-6 small-pad">
-            <div id="trailhead-courses" class="trailhead-courses training-box">
-                <h1 class="text-center">Trailhead Courses</h1>
-                <img id="trailhead-banner" src="images/trailhead.png">
+            <div id="trailhead-courses" class="training-box">
+                <div class="original-overlay">
+                    <h1 class="text-center">Trailhead Courses</h1>
+                    <img id="trailhead-banner" src="images/trailhead.png">
+                </div>
+                <div class="overlay">
+                    <h3>
+                        Learn how to use <a href="https://developer.salesforce.com/trailhead">Salesforce</a> from
+                        scratch with curated beautiful courses. Earn badges, show off your skills and practice with interactive challenges.
+                    </h3>
+                </div>
             </div>
         </div>
     </div>
@@ -81,22 +94,40 @@
     <div class="row">
         <div class="col-md-6 small-pad">
             <div id="udacity" class="training-box">
-                <img src="images/udacity.png">
-                <h1 class="text-center">Intro to Point & Click App Development</h1>
+                <div class="original-overlay">
+                    <img src="images/udacity.png">
+                    <h1 class="text-center">Intro to Point & Click App Development</h1>
+                </div>
+                <div class="overlay">
+                    <h2>
+                        Learn how to build an app without writing a single line of code with this 10 hour
+                        <a href="https://www.udacity.com/course/ud162 ">online course</a>.
+                    </h2>
+                </div>
             </div>
         </div>
         <div class="col-md-6 small-pad">
             <div id="developer-edition" class="training-box">
-                <img src="images/salesforce1.png">
-                <h1 class="text-center">Developer Edition Environment</h1>
+                <div class="original-overlay">
+                    <img src="images/salesforce1.png">
+                    <h1 class="text-center">Developer Edition Environment</h1>
+                </div>
+                <div class="overlay">
+                    <h2>Get a complete copy of the <a href="https://developer.salesforce.com/signup?d=70130000000m0qV">Salesforce1 Platform</a> and develop killer enterprise Apps.</h2>
+                </div>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6 small-pad">
             <div id="salesforce-technical-library" class="training-box">
-                <img src="images/salesforce-logo.png">
-                <h1 class="text-center">Force.com Technical Library</h1>
+                <div class="original-overlay">
+                    <img src="images/salesforce-logo.png">
+                    <h1 class="text-center">Force.com Technical Library</h1>
+                </div>
+                <div class="overlay">
+                    <h2><a href="https://developer.salesforce.com/page/Wiki">Documentation</a>, code samples, tools and other technical resources for building and customizing apps.</h2>
+                </div>
             </div>
         </div>
         <div class="col-md-6 small-pad">
@@ -162,5 +193,16 @@
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script>
+    $(document).ready(function(){
+        $(this).find(".original-overlay").on("mouseenter", function(){
+            $(this).next(".overlay").fadeIn();
+        });
+
+        $(this).find(".overlay").on("mouseleave", function(){
+            $(this).fadeOut();
+        })
+    });
+</script>
 </body>
 </html>
