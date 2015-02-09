@@ -11,9 +11,11 @@
     .title-icon {
       display: none; } }
   .title-icon.title-icon-yellow {
-    background-position: -118px 0; }
+    background-position: -118px 0; 
+    margin-top: 0px;}
   .title-icon.title-icon-blue {
-    background-position: -236px 0; }
+    background-position: -236px 0; 
+    margin-top: 0px ;}
   .title-icon.title-icon-orange {
     background-position: -354px 0;
     top: 0;
@@ -25,8 +27,7 @@
   .title-icon.title-icon-pink {
     background-position: -590px 0;
     bottom: 0;
-    margin-top: 0;
-    top: auto; }
+    margin-top: 0;}
   .title-icon.left {
     left: 65px; }
     @media (min-width: 1200px) {
