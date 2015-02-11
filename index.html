@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Salesforce Campus Tour</title>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,14 +22,14 @@
 	            <span class="icon-bar"></span>
 	          </button>
 	          <a id="main-logo" class="navbar-brand" href="index.html">
-                  <h3 id="main-logo-text" class="pull-right">Campus Tours</h3>
+                  <h3 id="main-logo-text" class="pull-right">Campus Tour</h3>
                   <img src="images/saleslforcelogo.png">
 	          </a>
 	        </div>
 	        <div id="navbar" class="collapse navbar-collapse pull-right">
 	          <ul class="nav navbar-nav">
-	            <li class="active"><a href="training.html">Resources</a></li>
-	            <li><a href="#about">Bootcamp</a></li>
+	            <li class="active"><a href="training.html">Training Resources</a></li>
+	            <!--<li><a href="#">Summer Camp</a></li>-->
 	            <li><a href="workshop.html" id="find-workshop-link"><strong>Find A Workshop</strong></a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
@@ -37,7 +37,53 @@
 	    </nav>
 	</header>
 <div class="content-container">
+	<div class="container-fluid homepage-container">
+		<h1 id="homepage-container-text">SALESFORCE CAMPUS TOUR</h1>
+		<h2>Bringing free hands on workshops to your college campus</h2>
+		<br>
+		<a href="workshop.html" id="find-workshop-button"><h3>Find a Workshop<h3></a>
+	</div>
 	<div class="container">
+		<h2 class="subtitle-heading">Learn how to Build Web and Mobile Apps using the Salesforce Platform</h2>
+		<br>
+		<h3 class="text-center">In these 2 hour workshops we will walk you through the process of building your first Salesforce app. Whether you are an experienced programmer or have never touched code before you can build the skills in demand by the top companies.</h3>
+		<h3 id="workshop-heading">We offer two different workshops:</h3>
+		<div class="row">
+        <div class="col-md-9 small-pad" style="padding-right: 0px">
+            <div id="workshop-point-click" class="workshop-box">
+                <h1>Introduction to Point-And-Click App Building:</h1>
+                <h3>No Coding Required. For business users who want to learn how to make their own custom apps.</h3>
+                <br>
+                <h4>
+                    Build a Salesforce Suggestion Box App to track user requests, feature requests, log notes, and interact via Chatter. Build a simple dashboard and explore creating a custom object.
+                </h4>
+            </div>
+		</div>
+        <div class="col-md-3 small-pad" style="padding-left: 0px;">
+            <div class="workshop-box">
+                <img src="images/intro-point-click-workshop.jpeg">
+            </div>
+        </div>
+        </div>
+	    <div class="row">
+        <div class="col-md-9 small-pad" style="padding-right: 0px">
+            <div id="workshop-force" class="workshop-box">
+                <h1>Introduction to Development on Force.com:</h1>
+                <h3>For technical users whith experience writing code and apps on other platforms, but who are new to the Salesforce1 Platform.</h3>
+                <br>
+                <h4>
+                    Build a conference management application that allows conference administrators to manage all aspects of a conference: sessions, speakers, hotels, etc.
+                </h4>
+            </div>
+        </div>
+        <div class="col-md-3 small-pad" style="padding-left: 0px;">
+            <div class="workshop-box">
+                <img src="images/intro-development-workshp.jpeg">
+            </div>
+        </div>
+    </div>
+	</div>
+	<!--<div class="container">
 		<div class="row">
 		  <div class="col-xs-12 col-md-12"><h2 class="subtitle-heading">Learn how to build with Salesforce</h2></div>
 		</div>
@@ -76,13 +122,14 @@
 			<p class="section-explanation">
 				Whether you are an experienced programmer or have never touched code before,<br> you can build the skills in demand by the market
 			</p>
+			<hr>-->
 		</div>
-		<hr>
+		<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-12"><h1 class="subtitle-heading">Campus Tour made history last year!</h1></div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-md-12"><h2 class="subtitle-explanation">Salesforce hit the road last Fall visiting Colleges and <br>Universities around the world</h2></div>
+			<div class="col-xs-12 col-md-12"><h2 id="subtitle-alternative">Salesforce hit the road last Fall visiting Colleges and <br>Universities around the world</h2></div>
 		</div>
 		<div class="row">
 			<div class="col-xs-4 col-md-4" id="institutions">
@@ -106,26 +153,26 @@
 			<div class="col-xs-4 col-md-4">
 				<h3 class="center-box center-text">What Students liked</h3>
 				<div class="row">
-					<div class="col-xs-2 col-sm-3"><img class="icon-small" src="images/yellow-icon.png"></div>
+					<div class="col-xs-2 col-sm-3"></div>
 					<div class="col-xs-10 col-sm-9"><h4>How easy it was</h4></div>
 				</div>
 				<div class="row">
-					<div class="col-xs-2 col-sm-3"><img class="icon-small" src="images/pink-icon.png"></span></div>
+					<div class="col-xs-2 col-sm-3"></div>
 					<div class="col-xs-10 col-sm-9"><h4>Hands on aspect</h4></div>
 				</div>
 				<div class="row">
-					<div class="col-xs-2 col-sm-3"><img class="icon-small" src="images/green-icon.png"></div>
+					<div class="col-xs-2 col-sm-3"></div>
 					<div class="col-xs-10 col-sm-9"><h4>Clicking not coding</h4></div>
 				</div>
 				<div class="row">
-					<div class="col-xs-2 col-sm-3"><img class="icon-small" src="images/orange-icon.png"></div>
+					<div class="col-xs-2 col-sm-3"></div>
 					<div class="col-xs-10 col-sm-9"><h4>Familiarizing with resources</h4></div>
 				</div>
 				<div class="row">
-					<div class="col-xs-2 col-sm-3"><img class="icon-small" src="images/blue-icon.png"></div>
+					<div class="col-xs-2 col-sm-3"></div>
 					<div class="col-xs-10 col-sm-9"><h4>Learning about job opportunities</h4></div>
 				</div>
-			</div>
+			</div> 
 			<div class="col-xs-4 col-md-4">
 				<h3 class="center-box center-text">Over 2000 participants</h3>
 				<div class="row">
@@ -143,11 +190,32 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12"><img class="icons-displayed" src="./images/headline-icons.png"></div>
 				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12"><img class="icons-displayed" src="./images/headline-icons.png"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12"><img class="icons-displayed" src="./images/headline-icons.png"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12"><img class="icons-displayed" src="./images/headline-icons.png"></div>
+				</div>
 			</div>
 		</div>
-			<p id="note-text" class="text-center">
-				Note: This is a classroom style Hands-on workshop. Please bring your own laptop for the hands-on exercises.
-			</p>
+		</div>
+		<br>
+		<div class="container">
+		<hr>
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<img class="img-responsive" src="images/campustour.jpg">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h3>Want to attend one of this year's hands on workshops? Check out our sessions or request one at your school.</h3>
+				<br>
+				<a href="workshop.html" class="btn btn-info">Find A Workshop</a>
+			</div>
+		</div>
+		<hr>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12"><img class="icons-displayed" src="./images/headline-icons.png"></div>
 		</div>
@@ -163,17 +231,8 @@
 				</div>
 			</form>
 		</div>
-		<hr>
-		<div class="row">
-			<div class="col-md-4 col-sm-12">
-				<img class="img-responsive" src="images/campustour.jpg">
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<h3>Want to attend one of this year's hands on workshops? Check out our sessions or request one at your school.</h3>
-				<br>
-				<a href="workshop.html" class="btn btn-info">Find a workshop</a>
-			</div>
 		</div>
+	</div>
 	</div>
 </div>
  <footer class="site-footer">
@@ -184,7 +243,7 @@
                 <div class="col-md-8">
                     <div class="footer-headline">
                         1‑800‑NO‑SOFTWARE | 1‑800‑667‑6389 |
-                        <a href="mailto:academic@salesforce.com?Subject=Bring Campus Tour to My School" target="_top">Contact</a>
+                        <a href="mailto:academic@salesforce.com?Subject=Bring Campus Tour to My School" target="blank">Contact</a>
                         <span class="delim">|</span>
                         <a href="#careers">Careers</a>
                     </div>

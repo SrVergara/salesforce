@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Training Resources</title>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,33 +13,34 @@
 <body>
 <header>
     <nav class="navbar navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a id="main-logo" class="navbar-brand" href="index.html">
-                    <h3 id="main-logo-text" class="pull-right">Campus Tours</h3>
-                    <img src="images/saleslforcelogo.png">
-                </a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse pull-right">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="training.html">Resources</a></li>
-                    <li><a href="#about">Bootcamp</a></li>
-                    <li><a href="workshop.html" id="find-workshop-link"><strong>Find A Workshop</strong></a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="main-logo" class="navbar-brand" href="index.html">
+              <h3 id="main-logo-text" class="pull-right">Campus Tour</h3>
+              <img src="images/saleslforcelogo.png">
+          </a>
         </div>
+        <div id="navbar" class="collapse navbar-collapse pull-right">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="training.html">Training Resources</a></li>
+            <!--<li><a href="#about">Summer Camp</a></li>-->
+            <li><a href="workshop.html" id="find-workshop-link"><strong>Find A Workshop</strong></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
 </header>
 <div class="content-container container">
-    <img class="img-responsive" src="images/campus-tour-header2.jpg">
-    <h1 id="supercharge" class="text-center">SUPERCHARGE YOUR CAREER WITH SALESFORCE</h1>
+    <div class="supercharge-text">
+    <h1 id="supercharge" class="text-center"><strong>SUPERCHARGE YOUR CAREER WITH SALESFORCE<strong></h1>
     <h2 id="sweetlist" class="text-center">Here's a sweet list of resources and activities to help you master your Salesforce Skills and boost your career. Check it out!</h2>
+    </div>
     <div class="row">
         <div class="col-md-6 small-pad">
             <div id="app-development" class="training-box">
@@ -48,7 +49,7 @@
                     <h1 class="text-center">App Development Telecast</h1>
                 </div>
                 <div class="overlay">
-                    <h2>Learn how to build a mobile app with our rockstar VP of Development, Adam Seligman</h2>
+                    <h2>Learn how to build a mobile app with our rockstar VP of Development, Adam Seligman.</h2>
                 </div>
             </div>
         </div>
@@ -60,28 +61,28 @@
                 </div>
                 <div class="overlay">
                     <h3>
-                        Learn how to use <a href="https://developer.salesforce.com/trailhead">Salesforce</a> from
+                        Learn how to use Salesforce from
                         scratch with curated beautiful courses. Earn badges, show off your skills and practice with interactive challenges.
                     </h3>
+                    <br> 
+                    <a href="https://developer.salesforce.com/trailhead" target="blank" class="tap-btn">Learn more</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-9 small-pad" style="padding-right: 0px">
-            <div id="salesforce-bootcamp" class="training-box">
-                <h1>Salesforce Bootcamp</h1>
-                <h2>San Francisco, June 1st-7th</h2>
+            <div class="salesforce-bootcamp training-box">
+                <h1>Salesforce Summer Camp</h1>
+                <h2>San Francisco, May 31st - June 6th</h2>
                 <br>
                 <h3>
-                    Join hundreds of students for one week of immsersive Salesforce training  subsidized by Salesforce.
-                    (By invitation only)
+                    Join hundreds of students for one week of immersive Salesforce training subsidized by Salesforce.
                 </h3>
                 <form id="invite-form" class="form-inline">
                     <div class="form-group">
-                        <label for="invite-email">Email</label>
-                        <input id="invite-email" type="text" class="form-control" placeholder="Enter Email Address">
-                        <button type="submit" class="btn btn-default">Get Invited</button>
+                        <input id="invite-email" type="text" class="form-control" placeholder="Enter email address to apply">
+                        <button type="submit" class="btn btn-default">Apply now</button>
                     </div>
                 </form>
             </div>
@@ -101,9 +102,10 @@
                 </div>
                 <div class="overlay">
                     <h2>
-                        Learn how to build an app without writing a single line of code with this 10 hour
-                        <a href="https://www.udacity.com/course/ud162 ">online course</a>.
+                        Learn how to build an app without writing a single line of code with this 10 hour online course.
                     </h2>
+                    <br>
+                    <a href="https://www.udacity.com/course/ud162" target="blank" class="tap-btn">Learn more</a>
                 </div>
             </div>
         </div>
@@ -114,7 +116,9 @@
                     <h1 class="text-center">Developer Edition Environment</h1>
                 </div>
                 <div class="overlay">
-                    <h2>Get a complete copy of the <a href="https://developer.salesforce.com/signup?d=70130000000m0qV">Salesforce1 Platform</a> and develop killer enterprise Apps.</h2>
+                    <h2>Get a complete copy of the Salesforce1 Platform and develop killer enterprise Apps.</h2>
+                    <br>
+                    <a href="https://developer.salesforce.com/signup?d=70130000000m0qV" target="blank" class="tap-btn">Learn more</a>
                 </div>
             </div>
         </div>
@@ -127,20 +131,20 @@
                     <h1 class="text-center">Force.com Technical Library</h1>
                 </div>
                 <div class="overlay">
-                    <h2><a href="https://developer.salesforce.com/page/Wiki">Documentation</a>, code samples, tools and other technical resources for building and customizing apps.</h2>
+                    <h2>Documentation, code samples, tools and other technical resources for building and customizing apps.</h2>
+                    <br>
+                    <a href="https://developer.salesforce.com/page/Wiki" target="blank" class="tap-btn">Learn more</a>
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-sm-6 small-pad">
             <div id="newsletter" class="training-box">
-                <h1 class="text-center">FutureGen Newsletter</h1>
+                <h1 class="text-center">Get involved!</h1>
                 <h3>
-                    Sign up to be the first to know about our student programs, new resources and strategies to boost your
-                    career with Salesforce.
+                    Sign up to get a chance to participate in upcoming Salesforce student programs.
                 </h3>
                 <form id="newsletter-form" class="form-inline">
                     <div class="form-group">
-                        <label for="newsletter-email">Email</label>
                         <input id="newsletter-email" type="text" class="form-control" placeholder="Enter Email Address">
                         <button type="submit" class="btn btn-default">Sign Up</button>
                     </div>
@@ -158,7 +162,7 @@
                 <div class="col-md-8">
                     <div class="footer-headline">
                         1‑800‑NO‑SOFTWARE | 1‑800‑667‑6389 |
-                        <a href="mailto:academic@salesforce.com?Subject=Bring Campus Tour to My School" target="_top">Contact</a>
+                        <a href="mailto:academic@salesforce.com?Subject=Bring Campus Tour to My School" target="blank">Contact</a>
                         <span class="delim">|</span>
                         <a href="#careers">Careers</a>
                     </div>

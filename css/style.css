@@ -3,6 +3,18 @@
 	margin-top: 40px;
 }
 
+.homepage-container{
+	background-color: #384356;
+	text-align: center;
+	color: white;
+	padding: 200px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#homepage-container-text {
+	font-size: 60px;
+}
+
 #nav-link {
 	padding-left: 0;
 	margin-bottom: 0;
@@ -34,7 +46,7 @@
 
 .navbar-brand, .navbar-nav > li > a {
 	color: white;
-	width: 180px;
+	width: 200px;
 	text-align: center;
 	font-size: 18px;
 }
@@ -48,6 +60,9 @@
 	color:rgb(255, 255, 96);
 }
 
+#find-workshop-button {
+	color:rgb(255, 255, 96);
+}
 
 #nav-link > li{
 	float: right;
@@ -79,6 +94,12 @@
 .subtitle-explanation {
 	text-align: center;
 	margin: 0px 25px 100px;
+	font-size: 25px;
+}
+
+#subtitle-alternative {
+	text-align: center;
+	margin: 0px 25px 50px;
 	font-size: 25px;
 }
 
@@ -115,4 +136,37 @@
 	min-height: 80px;
 	max-height: 80px;
 	margin-bottom: 10px;
+}
+
+.tap-btn {
+	font-size: 30px;
+	text-align: center;
+	display: block;
+}
+
+#workshop-heading {
+	padding-bottom: 20px;
+}
+
+
+.workshop-box{
+    min-height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+}
+#workshop-point-click{
+    background-color: steelBlue;
+}
+
+#workshop-force{
+    background-color: lightSkyBlue;
+}
+
+#light-gray-background {
+	background-color: lightGray;
+}
+
+.supercharge-text{
+    font-family: 'Raleway'
 }
