@@ -9,8 +9,26 @@
 	padding: 0px;
 }
 
+.header-margin{
+    margin-top: 100px;
+}
+
 .navbar {
-	background: #18253b;
+	background: #01344E;
+    padding-top: 4px;
+}
+
+#main-logo{
+    width: 230px;
+}
+
+#main-logo-text{
+    margin-top: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main-logo:hover{
+    color: gray;
 }
 
 .navbar-brand, .navbar-nav > li > a {
@@ -21,8 +39,8 @@
 }
 
 .navbar .navbar-nav > li > a:hover{
-	background: #778899;
-	color: rgb(0,0,0);
+	background: #0A2432;
+	color: white;
 }
 
 #find-workshop-link {
@@ -40,11 +58,6 @@
 	padding: 10px 15px;
 	width: 180px;
 	text-align: center;
-}
-
-/*Homepage 3rd section*/
-.container-benefits {
-	background-color: #e7e7e7;
 }
 
 .center-box {
@@ -89,4 +102,9 @@
 
 #note-text {
 	font-size: 15px;
+}
+
+.icon-small{
+    width: 32px;
+    margin-top: 10px;
 }
