@@ -169,13 +169,15 @@
 }
 
 #workshop-point-click{
-    background-color: #204d74;
+    background-color: #37c0c8;
 	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 #workshop-force{
-    background-color: #0A2432;
+    background-color: #c47642;
 	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 #light-gray-background {
@@ -183,7 +185,7 @@
 }
 
 .supercharge-text{
-    font-family: 'Raleway'
+    font-family: 'Raleway', sans-serif;
 }
 
 #what-students-liked{
