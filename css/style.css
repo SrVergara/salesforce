@@ -150,17 +150,32 @@
 
 
 .workshop-box{
-    min-height: 200px;
+    min-height: 230px;
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
+	padding-right:16px;
+	padding-left:16px;
 }
+
+.workshop-box-image{
+	padding: 0px;
+}
+
+.workshop-box-image img{
+	height: 100%;
+	width: 100%;
+	min-height: 230px;
+}
+
 #workshop-point-click{
-    background-color: steelBlue;
+    background-color: #204d74;
+	color: white;
 }
 
 #workshop-force{
-    background-color: lightSkyBlue;
+    background-color: #0A2432;
+	color: white;
 }
 
 #light-gray-background {
@@ -170,3 +185,415 @@
 .supercharge-text{
     font-family: 'Raleway'
 }
+
+#what-students-liked{
+	font-size: 20px;
+}
+
+/* imported styles */
+
+.small-pad{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.training-box{
+	min-height: 300px;
+	margin-bottom: 20px;
+	padding: 10px;
+	position: relative;
+}
+
+.training-box a{
+	color: #7BB1E0;
+}
+
+#app-development{
+	background-color: black;
+	color: white;
+}
+
+#app-development img{
+	width: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#trailhead-courses{
+	background-color: #384353;
+	color: white;
+	position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#trailhead-courses #trailhead-banner{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+#trailhead-courses > h1{
+	position: absolute;
+	top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#salesforce-bootcamp{
+	background-color: #C9F1FD;
+	padding: 20px;
+}
+
+#salesforce-bootcamp h1,h2,h3{
+	margin-bottom: 0px;
+}
+
+#salesforce-bootcamp h2{
+	margin-top: 0px;
+}
+
+#salesforce-bootcamp .form-group{
+	width: 100%;
+}
+
+#salesforce-bootcamp #invite-email{
+	width: 70%;
+}
+
+#invite-form{
+	margin-top: 20px;
+}
+
+#summer-camp{
+	padding: 0px;
+}
+
+#summer-camp img{
+	width: 100%;
+	max-height: 300px;
+}
+
+#udacity{
+	background-color: #AEDD94;
+}
+
+#udacity img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50%;
+	margin-top:10px;
+}
+
+#developer-edition{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+}
+
+#developer-edition img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#salesforce-technical-library{
+	background-color: #D6D6D6;
+}
+
+#salesforce-technical-library img{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+}
+
+#newsletter{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	text-align: center;
+}
+
+#newsletter #newsletter-form{
+	margin-top: 20px;
+}
+
+#newsletter .form-group{
+	width: 100%;
+}
+
+#newsletter #newsletter-email{
+	width: 70%;
+}
+
+#supercharge{
+	padding-top: 60px;
+}
+
+#sweetlist{
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-bottom: 60px;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.footer-top{
+	background: url("../images/footer-background-top.png") no-repeat 63% top;
+	height: 122px;
+}
+
+.footer{
+	color: #808080;
+	background: url("../images/footer-background.png") no-repeat 63% top #e6e7e8;
+	padding-top: 139px;
+	padding-bottom: 25px;
+}
+
+.footer-headline{
+	font-size: 18px;
+	line-height: 2em;
+}
+
+.footer-headline a{
+	color: #808080;
+}
+
+.footer-copyright, .footer-legal, .footer-links{
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+.footer-links{
+	line-height: 2em;
+}
+
+.footer-social {
+	padding: 0;
+	margin: 0;
+}
+@media(max-width: 767px) {
+	.footer-social{
+		margin-top: 20px;
+	}
+}
+
+.footer-social li{
+	list-style-type: none;
+	float: left;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.footer-social li:first-child {
+	margin-left: 0;
+}
+
+.footer-social a {
+	display: block;
+	width: 31px;
+	height: 30px;
+	background: url(../images/social-icons.png) no-repeat;
+	text-indent: -998em;
+}
+
+.footer-social li.facebook a{
+	background-position: -37px 0;
+}
+
+.footer-social li.twitter a{
+	background-position: 0 0;
+}
+
+.footer-social li.linkedin a{
+	background-position: -68px 0;
+}
+
+.footer-social li.googleplus a{
+	background-position: -101px 0;
+}
+
+.footer-social li.youtube a{
+	background-position: -134px 0;
+}
+
+.footer-social li.rss a{
+	background-position: -167px 0;
+}
+
+.original-overlay, .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.overlay{
+	padding-top: 40px;
+	padding-left: 24px;
+	padding-bottom: 16px;
+	padding-right: 24px;
+	background-color: rgba(0,0,0,.7);
+	color: white;
+	display: none;
+}
+
+#clear-calendar{
+	padding: 40px;
+}
+
+#workshop-calendar{
+	margin-top: 40px;
+}
+
+#workshop-contact-us{
+	margin-bottom: 100px;
+}
+
+#landing-newsletter-form{
+	text-align: center;
+}
+
+#landing-newsletter #landing-newsletter-form{
+	margin-top: 20px;
+}
+
+#landing-newsletter .form-group{
+	width: 50%;
+}
+
+#landing-newsletter #landing-newsletter-email{
+	width: 80%;
+}
+
+/* icons */
+.title-icon {
+	background: url(../images/headline-icons.png) no-repeat 0 0;
+	width: 90px;
+	height: 72px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -38px;
+	text-indent: -998em; }
+@media (max-width: 767px) {
+	.title-icon {
+		display: none; } }
+.title-icon.title-icon-yellow {
+	background-position: -118px 0;
+	margin-top: 0px;}
+.title-icon.title-icon-blue {
+	background-position: -236px 0;
+	margin-top: 0px ;}
+.title-icon.title-icon-orange {
+	background-position: -354px 0;
+	top: 0;
+	margin-top: 0; }
+.title-icon.title-icon-green {
+	background-position: -472px 0;
+	top: 0;
+	margin-top: 0; }
+.title-icon.title-icon-pink {
+	background-position: -590px 0;
+	bottom: 0;
+	margin-top: 0;}
+.title-icon.left {
+	left: 65px; }
+@media (min-width: 1200px) {
+	.title-icon.left {
+		left: 155px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+	.title-icon.left {
+		left: -10px; } }
+.title-icon.right {
+	right: 65px; }
+@media (min-width: 1200px) {
+	.title-icon.right {
+		right: 155px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+	.title-icon.right {
+		right: -10px; } }
+
+.participate1 p {
+	margin-top: 0; }
+.participate1 .blue-text {
+	margin-top: 19px; }
+
+.participate2 .title-icon-yellow.left {
+	left: 67px; }
+@media (min-width: 1200px) {
+	.participate2 .title-icon-yellow.left {
+		left: 161px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+	.participate2 .title-icon-yellow.left {
+		left: -10px; } }
+.participate2 .title-icon-yellow.right {
+	right: 67px; }
+@media (min-width: 1200px) {
+	.participate2 .title-icon-yellow.right {
+		right: 161px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+	.participate2 .title-icon-yellow.right {
+		right: -10px; } }
+.participate2 .title-icon-blue.left {
+	left: -36px; }
+@media (min-width: 1200px) {
+	.participate2 .title-icon-blue.left {
+		left: 57px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+	.participate2 .title-icon-blue.left {
+		display: none; } }
+.participate2 .title-icon-blue.right {
+	right: -36px; }
+@media (min-width: 1200px) {
+	.participate2 .title-icon-blue.right {
+		right: 57px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+	.participate2 .title-icon-blue.right {
+		display: none; } }
+
+.participate3 {
+	margin-bottom: 29px; }
+.participate3 .participate-inner {
+	position: relative; }
+.participate3 .icon-container-left {
+	position: absolute;
+	top: 43px;
+	left: 10px;
+	width: 196px;
+	height: 158px; }
+@media (min-width: 1200px) {
+	.participate3 .icon-container-left {
+		left: 20px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+	.participate3 .icon-container-left {
+		width: 90px;
+		height: 72px;
+		left: 39px; } }
+@media (max-width: 767px) {
+	.participate3 .icon-container-left {
+		display: none; } }
+.participate3 .icon-container-left .title-icon-orange {
+	left: 0; }
+@media (min-width: 768px) and (max-width: 991px) {
+	.participate3 .icon-container-left .title-icon-orange {
+		display: none; } }
+.participate3 .icon-container-left .title-icon-green {
+	right: 0; }
+@media (min-width: 768px) and (max-width: 991px) {
+	.participate3 .icon-container-left .title-icon-green {
+		display: none; } }
+
