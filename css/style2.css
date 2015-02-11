@@ -256,3 +256,15 @@
     color: white;
     display: none;
 }
+
+#clear-calendar{
+    padding: 40px;
+}
+
+#workshop-calendar{
+    margin-top: 40px;
+}
+
+#workshop-contact-us{
+    margin-bottom: 100px;
+}
